@@ -1,3 +1,4 @@
+import { useState } from "react";
 import ContactForm from "./components/ContactForm";
 import FeaturedProperties from "./components/FeaturedProperties";
 import Footer from "./components/Footer";
@@ -5,7 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 // Dados dos imóveis (mock)
-const properties = [
+const initialProperties = [
   {
     id: 1,
     name: "Apartamento Moderno",
@@ -36,6 +37,8 @@ const properties = [
 ];
 
 function App() {
+  const [properties, setProperties] = useState(initialProperties);
+
   return (
     <>
       <Navbar />
