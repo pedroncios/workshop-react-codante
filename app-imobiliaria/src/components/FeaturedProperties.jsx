@@ -1,7 +1,10 @@
+import { useProperties } from "../providers/PropertiesProvider";
 import NumberOfProperties from "./NumberOfProperties";
 import PropertyCard from "./PropertyCard";
 
-function FeaturedProperties({ properties }) {
+function FeaturedProperties() {
+  const properties = useProperties();
+
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto">

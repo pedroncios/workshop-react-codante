@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import { PropertiesContext } from "../App";
+import { useProperties } from "../providers/PropertiesProvider";
 
 function NumberOfProperties() {
-  const { properties } = useContext(PropertiesContext);
+  const properties = useProperties();
 
   return <span>({properties.length})</span>;
 }
