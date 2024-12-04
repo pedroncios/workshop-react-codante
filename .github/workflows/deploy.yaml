@@ -8,7 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v3
+      # Configure NodeJS v20
       - uses: actions/setup-node@v3
         with:
           node-version: 20
@@ -21,7 +23,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Upload dist files
           path: "./app-imobiliaria/dist/"
 
   # Deploy job
