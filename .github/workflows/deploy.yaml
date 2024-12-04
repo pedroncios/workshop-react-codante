@@ -22,7 +22,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: "./app-imobiliaria/dist"
+          path: "./app-imobiliaria/dist/"
 
   # Deploy job
   deploy:
