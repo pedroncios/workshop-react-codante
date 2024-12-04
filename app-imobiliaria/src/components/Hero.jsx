@@ -16,7 +16,7 @@ function Hero() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="src/assets/hero.webp"
+              src="assets/hero.webp"
               alt="Imóvel com piscina externa em um dia ensolarado"
               className="rounded-lg shadow-lg w-full h-auto object-cover"
             />

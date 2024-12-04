@@ -1,12 +1,12 @@
 {
   "name": "app-imobiliaria",
-  "homepage": "https://pedroncios.github.io/workshop-react-codante/",
+  "homepage": "/workshop-react-codante",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
