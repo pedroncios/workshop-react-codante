@@ -15,7 +15,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: app-imobiliaria/package-lock.json
       - name: Install npm dependencies and build
-        run: cd app-imobiliaria && npm install && npm run build
+        run: cd app-imobiliaria && npm install && npm run build-gh-pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
