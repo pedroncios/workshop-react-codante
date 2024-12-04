@@ -79,6 +79,7 @@ function ContactForm() {
               ></textarea>
             </div>
             <button
+              id="btn_enviar_msg"
               type="submit"
               className="w-full bg-violet-500 text-white px-4 py-2 rounded-md hover:bg-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-400 focus:ring-offset-2"
             >

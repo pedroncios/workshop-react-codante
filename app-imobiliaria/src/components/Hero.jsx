@@ -10,7 +10,10 @@ function Hero() {
             <p className="text-xl mb-8">
               Descubra o imóvel perfeito com a ReactImóveis
             </p>
-            <button className="bg-emerald-400 text-white px-4 py-2 rounded-md">
+            <button
+              id="btn_imoveis"
+              className="bg-emerald-400 text-white px-4 py-2 rounded-md"
+            >
               Ver imóveis
             </button>
           </div>
