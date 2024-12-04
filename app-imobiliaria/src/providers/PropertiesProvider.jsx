@@ -10,7 +10,7 @@ export const PropertiesProvider = ({ children }) => {
 
   // Simula o carregamento de uma API
   useEffect(() => {
-    fetch("./src/data/properties.json")
+    fetch("data/properties.json")
       .then((response) => response.json())
       .then((data) => {
         setProperties(data);
