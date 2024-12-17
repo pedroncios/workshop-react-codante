@@ -11,7 +11,7 @@ function FeaturedProperties() {
   const { searchText, setSearchText } = useContext(PropertiesContext);
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section id="section-properties" className="py-16 bg-gray-50">
       <div className="container mx-auto">
         <div className="flex items-center justify-between space-x-2 mb-8">
           <h2 className="text-3xl font-bold  text-center text-gray-700">

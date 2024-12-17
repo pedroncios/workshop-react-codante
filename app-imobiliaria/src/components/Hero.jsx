@@ -1,4 +1,10 @@
 function Hero() {
+
+  const btnImoveisClick = (e) => {
+    const propertiesSection = document.getElementById('section-properties');
+    propertiesSection?.scrollIntoView({behavior: 'smooth'});
+  };
+
   return (
     <section className="bg-gray-100 py-20 text-gray-700">
       <div className="container mx-auto px-12">
@@ -13,6 +19,7 @@ function Hero() {
             <button
               id="btn_imoveis"
               className="bg-emerald-400 text-white px-4 py-2 rounded-md"
+              onClick={btnImoveisClick}
             >
               Ver imóveis
             </button>
